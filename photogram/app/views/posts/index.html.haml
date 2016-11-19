@@ -1,4 +1,4 @@
 %h1 Welcome to Photogram
--@posts.each do  |post|
+- @posts.each do  |post|
 	=image_tag post.image.url(:medium)
 	=post.caption
